@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+.mylight{
+    background-color: black;
+    color: white;
+}
+
+#clickbutton{
+    margin-top: -40%;
+    margin-left:20px;
+}
+
+#clickbutton button{
+    height: 50px;
+    width: 150px;
+}
+
+
+.calculator{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+input{
+    width: 258px;
+    padding: 24px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color:white;
+    color:black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: #71f1f1;
+}
+
+.operator{
+    color: black;
+}
+
+button:hover{
+    color: red;
+}
